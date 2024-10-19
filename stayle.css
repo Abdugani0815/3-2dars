@@ -21,6 +21,7 @@ border:1px solid white;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
     gap:20px;
     padding: 40px 300px;
 }
@@ -29,13 +30,26 @@ img{
     width: 100px;
     height: 100px;
 }   
+.search{
 
-
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    align-items: center;
+    padding: 20px;
+}
+input{
+    padding: 5px;
+    width: 600px;
+    height: 30px;
+}
 
 
 
 
 .box{
  width: 300px;
+ border-radius: 10px;
+ box-shadow: 2px 3px 10px 15dygpx ;
 border: 3px solid gray;
 }   
